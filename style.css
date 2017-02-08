@@ -1,5 +1,6 @@
 body {
-	background: url(http://enjoycss.com/webshots/hq_0.png);
+	background: url(./images/photo-image.jpg) no-repeat;
+	background-size: 100%;
 }
 
 .wrapper {
