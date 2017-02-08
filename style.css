@@ -1,0 +1,16 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/Hirondelles.ttf);
+}
+
+h1 {
+	font-family: 'myFirstFont', sans-serif;
+}
+
+h2 {
+	font-family: 'Pangolin', cursive;
+}
+
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
