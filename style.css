@@ -1,16 +1,88 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(./fonts/Hirondelles.ttf);
+body {
+	background: url(http://enjoycss.com/webshots/hq_0.png);
 }
 
-h1 {
-	font-family: 'myFirstFont', sans-serif;
+.wrapper {
+	padding: 0 50px;
 }
 
-h2 {
-	font-family: 'Pangolin', cursive;
+.project-name {
+	color: gray;
 }
 
-h3 {
-	font-family: 'Open Sans Condensed', sans-serif;
+.navigation {
+	display: block;
+	text-align: center;
+	padding: 0;
+}
+
+.navigation li {
+	display: inline-block;
+	background: #ddd;
+	padding: 1.5% 2%;
+	border-right: 1px solid #bfbfbf;
+	width: calc(100% / 6 - 5%);
+}
+
+.navigation li a {
+	text-decoration: none;
+	color: gray;
+}
+
+.navigation li:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.navigation li:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-width: 0;
+}
+
+.navigation li:hover {
+	box-shadow: inset 0 0 14px 1px #887b7b;
+	background: #a7a7a7;
+	cursor: pointer;
+}
+
+.big {
+	padding: 50px;
+	text-align: center;
+}
+
+.big button {
+	padding: 15px;
+	font-size: 26px;
+	color: #fff;
+	background: green;
+	border: none;
+	border-radius: 10px;
+}
+
+.row {
+	display: block
+}
+
+.row .block {
+	display: inline-block;
+	padding: 20px 0;
+	width: calc(32% - 20px * 2);
+	margin: 0 20px;
+	position: relative;
+	top: 0;
+}
+
+.row .block a {
+	padding: 10px 20px;
+	color: #fff;
+	background: #3f55ca;
+	text-decoration: none;
+	border: none;
+	font-family: Arial;
+	border-radius: 7px;
+}
+
+.footer {
+	margin-top: 75px;
 }
